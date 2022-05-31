@@ -66,3 +66,4 @@ public class JavaApplication6 {
         opc = leia.next().charAt(0);
         }while(opc != 'n');
         
+        //fuck
