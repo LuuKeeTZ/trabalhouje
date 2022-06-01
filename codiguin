@@ -21,9 +21,16 @@ public class trabalhouje {
         int cont;
 
         pratoPadrao[0][0] = 4;
-        pratoPadrao[1][0] = 7;
+        pratoPadrao[1][0] = 7;  //Valor do custo 
         pratoPadrao[2][0] = 3;
         pratoPadrao[3][0] = 4;
+        
+       for(int i2 = 0; i2<maxLin2; i2++){
+           for(int j2 = 0; j2<maxCol2; j2++){       // Mostrar o valor do custo de produção
+               System.out.print("[" + pratoPadrao[i2][j2] + "]");
+           } 
+           System.out.print("\n");
+       }
 
         valoresPrato[0][0] = 2;
         valoresPrato[0][1] = 2;
@@ -162,4 +169,3 @@ public class trabalhouje {
 
     }
 }
-
